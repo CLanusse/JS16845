@@ -1,0 +1,12 @@
+[
+    {
+        "nombre": "Remera",
+        "precio": 1200,
+        "vendido": true
+    },
+    {
+        "nombre": "Buzo",
+        "precio": 2000,
+        "vendido": false
+    }
+]
