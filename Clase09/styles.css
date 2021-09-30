@@ -37,3 +37,20 @@ body {
     text-align: center;
     padding: 22px;
 }
+
+.input-error {
+    border: red solid 2px;
+}
+
+input:focus {
+    outline: none;
+}
+
+small {
+    color: red;
+    visibility: hidden;
+}
+
+.error-show {
+    visibility: visible;
+}
