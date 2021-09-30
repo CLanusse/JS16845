@@ -1,0 +1,39 @@
+body {
+    min-height: 100vh;
+}
+
+.agrandar {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.modal-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}
+
+.modal-active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal {
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 22px;
+}
