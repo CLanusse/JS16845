@@ -9,3 +9,12 @@
     height: 100vh;
     width: 100vw;
 }
+
+
+.fontSmall {
+    font-size: 12px;
+}
+
+.fontBig {
+    font-size: 42px;
+}
