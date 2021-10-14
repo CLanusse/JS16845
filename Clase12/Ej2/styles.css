@@ -1,0 +1,11 @@
+.valido {
+    border: 2px green solid;
+}
+
+.invalido {
+    border: 2px red solid;
+}
+
+#input-tarea:focus {
+    outline: none;
+}
