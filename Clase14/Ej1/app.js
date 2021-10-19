@@ -39,5 +39,20 @@ $.get('./tutores.json', (res) => {
     })
 })
 
+// fetch('./tutores.json')
+//     .then( (res) => res.json())
+//     .then( (data) => {
+//         data.forEach((tutor) => {
+
+//             $('#tutores').append(`
+//                 <li>
+//                     <h3>Nombre: ${tutor.nombre}</h3>
+//                     <h3>Apellido: ${tutor.apellido}</h3>
+//                 </li>
+            
+//             `)
+//         })
+//     })
+
 console.log("Hola mundo")
 

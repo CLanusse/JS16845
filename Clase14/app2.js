@@ -1,3 +1,0 @@
-// pokeapi
-
-// fetch
