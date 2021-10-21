@@ -49,8 +49,6 @@ $('#search').submit( (e) => {
 })
 
 
-
-
 // jQuery - get
 
 // const llamarPokemon = (query) => {
