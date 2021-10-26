@@ -9,26 +9,39 @@ let resultadosExamen = {
 };
 
 
-let {Tercera, Quinta, Primera} = resultadosExamen
+let {Sexta, Segunda, Cuarta} = resultadosExamen
 
-Tercera = 4
-Quinta = 5
-Primera = 0
+// Tercera = 4
+// Quinta = 5
+// Primera = 0
 
-console.log(Tercera)
-console.log(Quinta)
-console.log(Primera)
 
-console.log(resultadosExamen)
+// console.log(Sexta)
+// console.log(Segunda)
+// console.log(Cuarta)
+
+// const mostrarDesestructurado = ( {Primera} ) => {
+//   console.log(Primera)
+// }
+// mostrarDesestructurado(resultadosExamen)
+
+
+// fetch(url)
+//   .then((res) => res.json)
+//   .then(( {productos} ) => {
+//       // const {productos} = data
+//       console.log(productos)
+//   })
+
 
 const arreglo = [1, 2, 3, 4, 5, 6]
 
 const copiaDeArreglo = [...arreglo] // copia de arreglo con inmutabilidad
 copiaDeArreglo[0] = 123
 
-console.log(arreglo)
-console.log(copiaDeArreglo)
+// console.log(arreglo)
+// console.log(copiaDeArreglo)
 
 let [a, b] = arreglo
 
-console.log(a, b)
+// console.log(a, b)
